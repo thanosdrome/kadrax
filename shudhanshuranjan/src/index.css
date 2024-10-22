@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+:root {
+  max-width: 1400px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f8f8f8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+a {
+  font-weight: 500;
+  color: maroon;
+  text-decoration: inherit;
+}
+a:hover {
+  color: maroon;
+}
+
+body {
+  margin: 0;
+  /*display: flex;
+  place-items: center;*/
+
+}
+
+
+button {
+  background-color: #7B0100;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 25px;
+  transition: border-color 0.25s;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: maroon;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: maroon;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.header{
+  min-height: 70px;
+  padding: 0 15px ;
+  display: flex;
+  border-bottom: 3px solid #7B0100;
+  background-image: url(../assets/circle1.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 65% ;
+  justify-content: space-between;
+  
+
+}
+
+.heading-name h1{
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 6rem;
+  color: #7B0100;
+  line-height: 20%;
+}
+#first-n1{
+  color:#A8A8A8 ;
+}
+
+.thin-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 90%;
+  letter-spacing: 6px;
+  color: #101010 ;
+}
+
+.tech-stack{
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #7B0100 ;
+}
+
+.content-section{  
+
+  background-image: url(../assets/circle2.svg);
+  background-repeat: no-repeat;
+  background-position: 52% 80%;
+  min-height: 60rem;
+  margin: 0;
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.bi{
+  color: #7B0100;
+  z-index: 999;
+}
+.fa{
+  color: #7B0100;
+  font-size: 25px;
+  padding: 0 15px;
+  
+}
+.social-icons{
+  cursor: pointer;
+  width: 500px;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+ 
+}
