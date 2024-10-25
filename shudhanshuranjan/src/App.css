@@ -89,24 +89,15 @@
   padding: 1rem;
   will-change: filter;
   transition: filter 300ms;
-  animation-name: logo-spin;
-  animation-duration: 4s;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #7B0100);
+  filter: drop-shadow(0 0 2em #f30101);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #af0303);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {

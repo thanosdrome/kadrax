@@ -4,8 +4,7 @@ import './App.css'
 
 function App() {
 
-  return (
-  <div class="">
+  return (<>
   <div class="lines">
    <div class="line"></div>
    <div class="line"></div>
@@ -50,7 +49,7 @@ function App() {
 
 </section>
 
-    </div>
+</>
   )
 }
 

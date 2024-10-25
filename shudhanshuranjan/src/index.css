@@ -34,7 +34,7 @@ body {
 
 
 button {
-  background-color: #7B0100;
+  background-color: #a30000;
   font-size: 18px;
   font-style: italic;
   font-weight: 600;
@@ -42,6 +42,7 @@ button {
   border-radius: 25px;
   padding: 15px 25px;
   transition: border-color 0.25s;
+  cursor: pointer;
 }
 
 
@@ -60,14 +61,21 @@ button {
 
 
 .header{
+
+  left: 50%;
+  margin: 0;
+  position: absolute;
   min-height: 70px;
-  padding: 0 15px ;
+  width: 100vw;
+  padding: 0 1rem ;
   display: flex;
   border-bottom: 3px solid #7B0100;
   background-image: url(../assets/circle1.svg);
   background-repeat: no-repeat;
   background-position: 10% 65% ;
   justify-content: space-between;
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
   
 
 }
@@ -103,7 +111,7 @@ button {
 
   background-image: url(../assets/circle2.svg);
   background-repeat: no-repeat;
-  background-position: 52% 80%;
+  background-position: 50% 80%;
   min-height: 60rem;
   margin: 0;
   position: absolute;
@@ -130,3 +138,31 @@ button {
   justify-content: flex-end;
  
 }
+
+
+@media screen and (max-width: 400px) {
+  
+  .heading-name h1 {
+    font-size: 2.5rem;
+    
+  }
+
+  .thin-heading {
+    font-size: 25px;
+    
+  }
+
+  button {
+    font-size: 12px;
+    padding: 10px 20px;
+}
+.tech-stack {
+  font-size: 18px;
+  
+}
+.content-section {
+
+  background-position: 25% 80%;
+  
+}
+} 
