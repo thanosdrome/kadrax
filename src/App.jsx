@@ -13,7 +13,7 @@ function App() {
   </div>
     <section class="header">
     <div >
-      <img class="logo" src="./assets/Logo.svg" alt="" />
+      <img class="logo" src="../assets/Logo.svg" alt="" />
     </div>
 
   <div class="social-icons">
