@@ -65,7 +65,7 @@ button {
   left: 50%;
   margin: 0;
   position: absolute;
-  min-height: 8vw;
+  min-height: 4vw;
   width: 100vw;
   padding: 0 1rem ;
   display: flex;
