@@ -40,7 +40,7 @@ function App() {
     </div>
 
     <div><h2 class="thin-heading">HELPING BUSINESSES CREATE THEIR<br></br> ONLINE PRESENCE</h2></div>
-    <div><h2 class="tech-stack" >DevOPS | WordPress | Shopify</h2></div>
+    <div><h2 class="tech-stack" >UI/UX Design | WordPress | </h2></div>
 <button class="button">ranjanshudhanshu104@gmail.com</button>
 
 </div>
